@@ -13,7 +13,7 @@
    --Body_background: rgb(235, 235, 235);
    --textBackgroundColor: rgb(222, 222, 222);
    --outline: 1.5px solid rgb(218, 215, 215);
-   --box-shadow: 5px 5px 10px rgb(215, 215, 215);
+   --box-shadow: 0px 0px 10px rgb(215, 215, 215);
    --logo_color: rgb(68, 68, 235);
 }
 body {
