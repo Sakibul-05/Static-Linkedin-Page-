@@ -77,6 +77,7 @@ nav .navigationbar .left .input input {
   font-size: 15px;
   background: transparent;
   transition: 0.5s;
+  margin-left: 12px;
 }
 nav .navigationbar .left .input input:hover{
    width: 20rem;
