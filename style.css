@@ -79,7 +79,7 @@ nav .navigationbar .left .input input {
   transition: 0.5s;
   margin-left: 12px;
 }
-nav .navigationbar .left .input input:hover{
+nav .navigationbar .left .input input:focus{
    width: 20rem;
    
 }
