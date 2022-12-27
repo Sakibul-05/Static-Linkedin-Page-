@@ -383,66 +383,87 @@ nav .navigationbar .right .me i {
 
 
 /* =================== Middlebar Starts ================= */ 
-.middlebar .upload{
-   background: rgb(255, 255, 255);
-   border-radius: 10px;
-   height: fit-content;
+
+/* =================== Middlebar Upload section ================= */ 
+.upload{
+   background-color: rgb(252, 252, 252);
    /* border: 2px solid red; */
+   border-radius: 0.5rem;
+   /* width: 33.5rem; */
+   max-width:100%;
+   margin: auto;
 }
-.middlebar .upload .search{
-   display: flex;
-   gap: 20px;
-   padding: 15px;
+.search img,button{
+   display: block;
+   
 }
-.middlebar .upload .search img{
-   width:  60px;
-   height: 50px;
-   border-radius: 100%;
+.search img{
+   width: 48px;
+   height: 48px;
+   border-radius: 49.99%;
+   
+}
+.search img:hover{
    cursor: pointer;
 }
-.middlebar .upload .search input{
-   padding: 15px;
-   border-radius: 50px;
-   border: 1px solid grey;
+.search button{
    width: 100%;
-   transition: 0.5s;
+   height: 3rem;
+   border-radius: 2rem;
+   border: 1px solid #0000004d;
+   background: none;
+   padding: 0.5rem 1rem;
+   font-size: 1rem;
+   margin-left: 0.5rem;
 }
-.middlebar .upload .search input:hover{
-   background: rgb(234, 227, 227);
+.search button span{
+   display:  block;
+   text-align: left;
+
+}    
+.search button:hover{
+   background: rgb(245, 245, 245);
    cursor: pointer;
 }
-.middlebar .upload .posts{ 
-  
+.search{
    display: flex;
    justify-content: space-between;
-   margin: 0 20px 30px 20px; 
+   align-items: center;
+   padding: 0.5rem 0.5rem 0 0.8rem;
 }
-.middlebar .upload .posts .post{
-   
-   margin-bottom: 5px;
+.posts{
+ 
    display: flex;
-   gap: 15px;
-   padding: 12px 11px;
-   opacity: 0.7;
+   padding: 0.2rem 0.3rem ;
+   justify-content: space-around;
 }
-.middlebar .upload .posts .post:hover{
-   background: var(--textBackgroundColor);
-   border-radius: 5px;
+.photo i{
+    color: rgb(20, 94, 221);
+    opacity: 0.8;
+}
+.video i{
+   color: rgb(22, 120, 22);
+   opacity: 0.8;
+}
+.event i{
+   color: rgb(195,125,22,1);
+   opacity: 0.8;
+}
+.article i{
+   color: #e16745;
+   opacity: 0.9;
+}
+.posts div{
+   /* border: 1px solid red; */
+   padding: 0.8rem 0.5rem ;
    cursor: pointer;
+   border-radius: 0.3rem;
 }
-.middlebar .upload .posts .post:nth-child(1) i{
-   color: blue;
-}
-.middlebar .upload .posts .post:nth-child(2) i{
-   color: rgb(91, 162, 29);
-}
-.middlebar .upload .posts .post:nth-child(3) i{
-   color: rgb(241, 171, 31);
-}
-.middlebar .upload .posts .post:nth-child(4) i{
-   color: rgb(226, 72, 11);
-}
+.posts div:hover{
+   background-color: #ebebeb;
+} 
 
+/* =================== Middlebar Content section ================= */ 
 .middlebar .content{
    background: rgb(255, 255, 255);
    border-radius: 10px;
@@ -534,6 +555,7 @@ nav .navigationbar .right .me i {
 .middlebar .content .content_middle .like_comment div:hover{
    background: var(--textBackgroundColor);
 }
+ 
 /* =================== Middlebar Ends ================= */ 
 
 
